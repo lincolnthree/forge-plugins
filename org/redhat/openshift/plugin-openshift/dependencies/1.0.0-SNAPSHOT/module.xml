@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module xmlns="urn:jboss:module:1.0" name="org.redhat.openshift.plugin-openshift.dependencies" slot="1.0.0-SNAPSHOT">
+  <resources>
+    <resource-root path="log4j-1.2.16.jar"/>
+    <resource-root path="httpclient-4.1.1.jar"/>
+    <resource-root path="gson-1.7.1.jar"/>
+    <resource-root path="commons-codec-1.4.jar"/>
+    <resource-root path="httpmime-4.1.1.jar"/>
+  </resources>
+  <dependencies>
+    <module name="javax.api"/>
+  </dependencies>
+</module>

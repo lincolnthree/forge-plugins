@@ -1,0 +1,13 @@
+
+META-INF
+com
+com/redhat
+com/redhat/openshift
+com/redhat/openshift/completer
+com/redhat/openshift/dao
+com/redhat/openshift/dao/exceptions
+com/redhat/openshift/model
+com/redhat/openshift/utils
+META-INF/maven
+META-INF/maven/org.redhat.openshift
+META-INF/maven/org.redhat.openshift/plugin-openshift

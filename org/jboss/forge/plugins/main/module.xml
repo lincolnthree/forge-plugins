@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<module xmlns="urn:jboss:module:1.0" name="org.jboss.forge.plugins">
+  <resources>
+   </resources>
+  <dependencies>
+    <module export="true" name="org.redhat.openshift.plugin-openshift" services="export" slot="1.0.0-SNAPSHOT">
+      <imports>
+        <include path="**"/>
+        <include path="META-INF"/>
+      </imports>
+      <exports>
+        <include-set>
+          <path name="**"/>
+          <path name="META-INF"/>
+        </include-set>
+      </exports>
+    </module>
+    <module export="true" name="org.jboss.hibernate.forge.hibernate-tools-plugin" services="export" slot="1.0.0-SNAPSHOT">
+      <imports>
+        <include path="**"/>
+        <include path="META-INF"/>
+      </imports>
+      <exports>
+        <include-set>
+          <path name="**"/>
+          <path name="META-INF"/>
+        </include-set>
+      </exports>
+    </module>
+  </dependencies>
+</module>

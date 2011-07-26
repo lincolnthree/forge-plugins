@@ -1,0 +1,9 @@
+
+META-INF
+com
+com/google
+com/google/gson
+com/google/gson/annotations
+com/google/gson/internal
+com/google/gson/reflect
+com/google/gson/stream
